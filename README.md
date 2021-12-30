@@ -9,7 +9,7 @@
  
 - They are well aware of the business objectives and the organization’s security strategy. Therefore, their task is to strengthen the castle walls so no intruder can compromise the defenses.
 
-![red](https://github.com/paulveillard/cybersecurity-red-team/blob/main/img/red-purple-blueteam.png)
+![blue](https://github.com/paulveillard/cybersecurity-blue-team/blob/main/img/red-purple-blueteam.png)
 
 
 ### For The Red Team, See [Cybersecurity Red Team](https://github.com/paulveillard/cybersecurity-red-team)
