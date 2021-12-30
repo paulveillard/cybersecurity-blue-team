@@ -12,7 +12,7 @@
 ![red](https://github.com/paulveillard/cybersecurity-red-team/blob/main/img/red-purple-blueteam.png)
 
 
-## For The Red Team, See [Cybersecurity Red Team](https://github.com/paulveillard/cybersecurity-red-team)
+### For The Red Team, See [Cybersecurity Red Team](https://github.com/paulveillard/cybersecurity-red-team)
 
 ## Table of Contents
 
