@@ -14,7 +14,7 @@
 
 ## For The Red Team, See [Cybersecurity Red Team](https://github.com/paulveillard/cybersecurity-red-team)
 
-## Contents
+## Table of Contents
 
 - [Automation](#automation)
   - [Code libraries and bindings](#code-libraries-and-bindings)
