@@ -2,7 +2,7 @@
 
 > A collection of awesome software, libraries, learning tutorials, documents and books, technical resources and cool stuff about Blue Team in Cybersecurity.
 
-## What is a Blue Team?
+## `What is a Blue Team?`
 
  - A [blue team](https://purplesec.us/red-team-vs-blue-team-cyber-security/#Blue) consists of security professionals who have an inside out view of the organization. Their task is to protect the organization’s critical assets against any kind of threat.
 
@@ -14,7 +14,7 @@
 
 ### For The Red Team, See [Cybersecurity Red Team](https://github.com/paulveillard/cybersecurity-red-team)
 
-## Table of Contents
+## `Table of Contents`
 
 - [Automation](#automation)
   - [Code libraries and bindings](#code-libraries-and-bindings)
@@ -59,7 +59,7 @@
 - [Windows-based defenses](#windows-based-defenses)
   - [Active Directory](#active-directory)
 
-## Automation
+## `Automation`
 
 - [Ansible Lockdown](https://ansiblelockdown.io/) - Curated collection of information security themed Ansible roles that are both vetted and actively maintained.
 - [Clevis](https://github.com/latchset/clevis) - Plugable framework for automated decryption, often used as a Tang client.
@@ -69,7 +69,7 @@
 - [PyREBox](https://talosintelligence.com/pyrebox) - Python-scriptable reverse engineering sandbox, based on QEMU.
 - [Watchtower](https://containrrr.dev/watchtower/) - Container-based solution for automating Docker container base image updates, providing an unattended upgrade experience.
 
-### Code libraries and bindings
+### `Code libraries and bindings`
 
 - [MultiScanner](https://github.com/mitre/multiscanner) - File analysis framework written in Python that assists in evaluating a set of files by automatically running a suite of tools against them and aggregating the output.
 - [Posh-VirusTotal](https://github.com/darkoperator/Posh-VirusTotal) - PowerShell interface to VirusTotal.com APIs.
@@ -79,13 +79,13 @@
 - [python-sandboxapi](https://github.com/InQuest/python-sandboxapi) - Minimal, consistent Python API for building integrations with malware sandboxes.
 - [python-stix2](https://github.com/oasis-open/cti-python-stix2) - Python APIs for serializing and de-serializing Structured Threat Information eXpression (STIX) JSON content, plus higher-level APIs for common tasks.
 
-### Security Orchestration, Automation, and Response (SOAR)
+### `Security Orchestration, Automation, and Response (SOAR)`
 
 See also [Security Information and Event Management (SIEM)](#security-information-and-event-management-siem), and [IR management consoles](#ir-management-consoles).
 
 - [Shuffle](https://shuffler.io/) - Graphical generalized workflow (automation) builder for IT professionals and blue teamers.
 
-## Cloud platform security
+## `Cloud platform security`
 
 See also [asecure.cloud/tools](https://asecure.cloud/tools/).
 
@@ -98,7 +98,7 @@ See also [asecure.cloud/tools](https://asecure.cloud/tools/).
 - [Scout Suite](https://github.com/nccgroup/ScoutSuite) - Open source multi-cloud security-auditing tool, which enables security posture assessment of cloud environments.
 - [gVisor](https://github.com/google/gvisor) - Application kernel, written in Go, that implements a substantial portion of the Linux system surface to provide an isolation boundary between the application and the host kernel.
 
-### Distributed monitoring
+### `Distributed monitoring`
 
 See also [§ Service and performance monitoring](#service-and-performance-monitoring).
 
@@ -108,7 +108,7 @@ See also [§ Service and performance monitoring](#service-and-performance-monito
 - [Prometheus](https://prometheus.io/) - Open-source systems monitoring and alerting toolkit originally built at SoundCloud.
 - [Zipkin](https://zipkin.io/) - Distributed tracing system backend that helps gather timing data needed to troubleshoot latency problems in service architectures.
 
-### Kubernetes
+### `Kubernetes`
 
 See also [Kubernetes-Security.info](https://kubernetes-security.info/).
 
@@ -123,14 +123,14 @@ See also [Kubernetes-Security.info](https://kubernetes-security.info/).
 - [kube-hunter](https://kube-hunter.aquasec.com/) - Open-source tool that runs a set of tests ("hunters") for security issues in Kubernetes clusters from either outside ("attacker's view") or inside a cluster.
 - [kubernetes-event-exporter](https://github.com/opsgenie/kubernetes-event-exporter) - Allows exporting the often missed Kubernetes events to various outputs so that they can be used for observability or alerting purposes.
 
-### Service meshes
+### `Service meshes`
 
 See also [ServiceMesh.es](https://servicemesh.es/).
 
 - [Consul](https://consul.io/) - Solution to connect and configure applications across dynamic, distributed infrastructure and, with Consul Connect, enabling secure service-to-service communication with automatic TLS encryption and identity-based authorization.
 - [Istio](https://istio.io/) - Open platform for providing a uniform way to integrate microservices, manage traffic flow across microservices, enforce policies and aggregate telemetry data.
 
-## Communications security (COMSEC)
+## `Communications security (COMSEC)`
 
 See also [Transport-layer defenses](#transport-layer-defenses).
 
@@ -140,7 +140,7 @@ See also [Transport-layer defenses](#transport-layer-defenses).
 - [SecureDrop](https://securedrop.org/) - Open source whistleblower submission system that media organizations and NGOs can install to securely accept documents from anonymous sources.
 - [Teleport](https://goteleport.com/) - Allows engineers and security professionals to unify access for SSH servers, Kubernetes clusters, web applications, and databases across all environments.
 
-## DevSecOps
+## `DevSecOps`
 
 See also [awesome-devsecops](https://github.com/devsecops/awesome-devsecops).
 
@@ -160,19 +160,19 @@ See also [awesome-devsecops](https://github.com/devsecops/awesome-devsecops).
 - [git-crypt](https://www.agwa.name/projects/git-crypt/) - Transparent file encryption in git; files which you choose to protect are encrypted when committed, and decrypted when checked out.
 - [helm-secrets](https://github.com/jkroepke/helm-secrets) - Helm plugin that helps manage secrets with Git workflow and stores them anywhere, backed by SOPS.
 
-### Application or Binary Hardening
+### `Application or Binary Hardening`
 
 - [DynInst](https://dyninst.org/dyninst) - Tools for binary instrumentation, analysis, and modification, useful for binary patching.
 - [DynamoRIO](https://dynamorio.org/) - Runtime code manipulation system that supports code transformations on any part of a program, while it executes, implemented as a process-level virtual machine.
 - [Egalito](https://egalito.org/) - Binary recompiler and instrumentation framework that can fully disassemble, transform, and regenerate ordinary Linux binaries designed for binary hardening and security research.
 - [Valgrind](https://www.valgrind.org/) - Instrumentation framework for building dynamic analysis tools.
 
-### Compliance testing and reporting
+### `Compliance testing and reporting`
 
 - [Chef InSpec](https://www.chef.io/products/chef-inspec) - Language for describing security and compliance rules, which become automated tests that can be run against IT infrastructures to discover and report on non-compliance.
 - [OpenSCAP Base](https://www.open-scap.org/tools/openscap-base/) - Both a library and a command line tool (`oscap`) used to evaluate a system against SCAP baseline profiles to report on the security posture of the scanned system(s). 
 
-### Dependency confusion
+### `Dependency confusion`
 
 See also [§ Supply chain security](#supply-chain-security).
 
